@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    padding: 60px;
+}
+.encryptBox{
+    position: absolute;
+    top: 33%;
+    left: 17%;
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: #f0ffea;
+    border-radius: 10px;
+}
+#takeText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 23vw;
+    font-size: 19px;
+    display: block;
+    border: 1px solid #d7d0d0;
+}
+.EncryptButton{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    background-color: #6dbdff;
+    color: white;
+    border-radius: 6px;
+    padding: 7px 13px;
+    font-weight: 500;
+}
+#OutputArea{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+    border: 1px solid #d7d0d0;
+    width: 22vw;
+    height: 20vh;
+    font-size: 21px;
+}
+.btns{
+    padding: 10px;
+}
+
+.decryptBox{
+    position: absolute;
+    top: 33%;
+    left: 58%;
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: #ebfbff;
+    border-radius: 10px;
+}
+#takeDecryptText{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 23vw;
+    font-size: 19px;
+    display: block;
+    border: 1px solid #d7d0d0;
+}
+#decryptButton{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    background-color: #6dbdff;
+    color: white;
+    border-radius: 6px;
+    padding: 7px 13px;
+    font-weight: 500;
+}
+#decryptClearButton{
+
+}
+#OutputDecryptArea{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+    border: 1px solid #d7d0d0;
+    width: 22vw;
+    height: 20vh;
+    font-size: 21px;
+}
+
+#canvasOutput{
+    width: 32vw;
+}
+#canvasOutputDecrypt{
+    width: 32vw;
+    
+}

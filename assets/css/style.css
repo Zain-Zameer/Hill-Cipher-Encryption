@@ -1,0 +1,19 @@
+
+
+#selectMenu{
+    width: 46%;
+    text-align: center;
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.container{
+    text-align: center;
+}
+h1{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: antiquewhite;
+        padding: 60px;
+}
