@@ -7,11 +7,11 @@ app.use(express.static(path.join(__dirname, '../assets')));
 
 
 
-app.get('/assets/pages/text.html',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../','assets/pages','text.html'));
+app.get('/text.html',(req,res)=>{
+    res.sendFile(path.join(__dirname,'../assets/pages/text.html'));
 });
 
-app.get('/assets/pages/image.html',(req,res)=>{
+app.get('/image.html',(req,res)=>{
     res.sendFile(path.join(__dirname,'../','assets/pages','image.html'));
 });
 

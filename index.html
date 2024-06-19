@@ -22,14 +22,15 @@
         </select>
     </div>
 
-
-
     <script>
          document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("selectMenu").addEventListener("change", function() {
             var selectedValue = this.value;
             if (selectedValue === "1") {
-                window.location.href = "../assets/pages/text.html"; 
+                window.location.href = "/text.html"; 
+            }
+            if (selectedValue === "2") {
+                window.location.href = "/image.html"; 
             }
         });
     });
